@@ -1,6 +1,8 @@
 # Format Output
 ## About
 
+The C++ escape sequences are pretty similar to other languages. The most common ones are: \n - newline \t - tab. We can also format the output by using the iomanip library like I did below.
+
 ```c++
 /*
 Escape Sequences:
@@ -38,4 +40,16 @@ using namespace std;
 
      return 0;
  }
+```
+The output we get is:
+```c++
+print with set width = 10
+Ints    Floats   Doubles         
+45      45.323   45.5468
+54      54.323   54.5468
+63      63.323   63.5468
+
+print with tabs
+Int     Floats  Doubles
+63      63.323  63.5468
 ```
